@@ -18,16 +18,9 @@ Para utilizar la API, puedes enviar solicitudes POST a la URL de la API. La API 
 - `num2`: Segundo número para la operación.
 - `operation`: Operación a realizar (add, subtract, multiply, divide).
 
-Aquí hay un ejemplo de cómo se vería una solicitud POST utilizando cURL:
-
-```bash
-curl -X POST -d "num1=5&num2=3&operation=add" http://example.com/apiCalculator.php
-
-La respuesta de la API será un objeto JSON que contendrá el resultado de la operación o un mensaje de error si hay algún problema.
-
 ---
 
-# Endpoints disponibles
+## Endpoints disponibles
 
 - `add.php`: Este endpoint realiza la operación de suma entre dos números.
 - `subtract.php`: Este endpoint realiza la operación de resta entre dos números.
